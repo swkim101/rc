@@ -1,1 +1,5 @@
 # rc
+
+```
+sh install.sh
+```
