@@ -13,7 +13,7 @@ if [ -f ~/.vimrc ]; then
   cp ~/.vimrc ~/.vimrc.old
 fi
 
-wget https://raw.githubusercontent.com/swkim101/rc/master/vimrc -O ~/.vimrc
+curl https://raw.githubusercontent.com/swkim101/rc/master/vimrc > ~/.vimrc
 curl https://raw.githubusercontent.com/swkim101/rc/master/bashrc >> ~/.bashrc
 
 #Install Plugins
